@@ -104,7 +104,7 @@ function storeBookmark(e) {
     if(!validate(nameValue, urlValue)){
         return false;
     }
-    const bookmark[urlvalue] = {
+    const bookmark = {
         name: nameValue,
         url: urlValue,
     };
