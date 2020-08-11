@@ -74,12 +74,10 @@ function fetchBookmarks() {
     } else {
         // Create bookmark array in localStorage
         const id = 'https://roskiecruz.com'
-        bookmarks[id] = [
-            {
+        bookmarks[id] = {
                 name: 'Roskie Cruz',
                 url: 'https://roskiecruz.com',
-            }
-        ];
+        };
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }
     buildBookmarks();
@@ -106,7 +104,7 @@ function storeBookmark(e) {
     if(!validate(nameValue, urlValue)){
         return false;
     }
-    const bookmark = {
+    const bookmark[urlvalue] = {
         name: nameValue,
         url: urlValue,
     };
