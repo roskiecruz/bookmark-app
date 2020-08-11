@@ -1,5 +1,5 @@
 # Bookmark App
-This is an experiment on modals, anchor tags, and more!
+This is an experiment on modals, anchor tags, basic regular expressions, and more!
 
 Resources Used:
 - Hero Patterns
